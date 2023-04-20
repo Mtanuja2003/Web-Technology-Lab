@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <!--<meta name="viewport" content="width=device-width,initial-scale=1.0">-->
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body background="tic tac toe.jpg">
+        <div id="part">
+        <h1><b>Play</b> TIC TAC TOE!</h1>
+        <form>
+            <b><label for="player 1">Player 1:  </label></b><input type="textbox" name="player 1" id="player 1"><br><br><br><br>
+            <b><label for="player 2">Player 2:  </label></b><input type="textbox" name="player 2" id="player 2"><br><br><br><br>
+            <button type="submit" name="ok" value="submit" onclick="return Playersdata()">OK</button>
+        </form>
+        <p name="p1" id="p1"></p>
+        <p name="p2" id="p2"></p>
+        <script src="tic tac toe.js"></script>
+        <div id="game" style="display:none;">
+        <input type="text" name="1" placeholder="1" id="1" onclick="fun3();fun(); " style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly>
+        <input type="text" name="2" placeholder="2" id="2" onclick="fun4();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly>
+        <input type="text" name="3" placeholder="3" id="3" onclick="fun5();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly><br>
+        <input type="text" name="4" placeholder="4" id="4" onclick="fun6();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly>
+        <input type="text" name="5" placeholder="5" id="5" onclick="fun7();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly>
+        <input type="text" name="6" placeholder="6" id="6" onclick="fun8();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly><br>
+        <input type="text" name="7" placeholder="7" id="7" onclick="fun9();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly>
+        <input type="text" name="8" placeholder="8" id="8" onclick="fun10();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly>
+        <input type="text" name="9" placeholder="9" id="9" onclick="fun11();fun();" style="background-color: aquamarine;border-radius: 5px;width: 50px;text-align: center;height: 40px;" readonly><br>
+        <br><br><br><button name="end" onclick="back()" style="color:black;background-color: rgb(233, 122, 122);height: 40px;width: 80px;">End</button>
+        <button name="reset" id="reset" onclick="fun2()" style="color:black;background-color: rgb(130, 223, 130);height:40px;width:80px;">Reset</button>
+        <p id="result"></p>
+        </div>
+        <button name="start" onclick="enter()">Let's Get Started!</button>
+        </div>
+    </body>
+</html>

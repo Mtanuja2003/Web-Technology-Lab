@@ -1,0 +1,45 @@
+h1 {
+    color:navy;
+    font-size: 45px;
+}
+label{
+    font-size: 25px;
+    font-family: 'Times New Roman',cursive;
+    color:black;
+}
+input {
+    border-radius: 7px;
+    border-width: 2px;
+    border-color:crimson;
+    background-color:rgb(56, 142, 176);
+    outline-color:black;
+    text-align: center;
+}
+#reset{
+    box-sizing: border-box;
+    width: 95px;
+    height: 45px;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+button{
+    color: black;
+    cursor: pointer;
+    background-color:bisque;
+}
+p{
+    color:rgba(225, 12, 12, 0.949);
+    font-weight: bolder;
+    font-size: large;
+}
+#game{
+    text-align: center;
+    background-color: black;
+}

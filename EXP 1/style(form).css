@@ -1,0 +1,22 @@
+label{
+    color:blue;
+    text-align: center;
+    padding-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:bisque;
+    text-align: center;
+}
+input,select,textarea{
+    border-radius: 7px;
+    border-width: 2px;
+    border-color:crimson;
+    background-color: antiquewhite;
+    outline-color: black;
+}
+table{
+    text-align: center;
+    padding: 10px;
+    border-spacing: 20px;
+}
